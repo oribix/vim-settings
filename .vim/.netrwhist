@@ -1,3 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/home/csmajs/mmore019/Documents/CS100/hbhairy-utils/coreutils-8.23/gnulib-tests'
+let g:netrw_dirhist_2='/home/csmajs/mmore019/Documents/seniorproject/tests/Phase1Tester'
+let g:netrw_dirhist_3='/home/csmajs/mmore019/Documents/seniorproject/symboltable'

@@ -14,8 +14,11 @@ set smartindent
 set t_Co=256
 :colors zenburn
 
-"Spellcheck
+"Spellcheck in git commits
 autocmd Filetype gitcommit setlocal spell
+
+"tabs in makefiles
+autocmd Filetype make setlocal noexpandtab
 
 " WILD
 set wildmenu
@@ -30,3 +33,6 @@ match ErrorMsg '\s\+$'
 
 " MACH SPEED!!!!
 set lazyredraw
+
+" tmux background color fix
+set t_ut=
